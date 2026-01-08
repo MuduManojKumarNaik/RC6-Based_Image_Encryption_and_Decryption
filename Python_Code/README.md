@@ -1,4 +1,5 @@
 ibmp.py
+
 Image to Binary Conversion Script
 This Python script converts an input RGB image into raw binary data for FPGA processing. The image is resized to a fixed resolution and converted into a NumPy array, which is then flattened and written as a binary file. This binary output serves as the input stimulus for the RC6 Verilog encryption testbench, enabling file-based verification of the FPGA design.
 Key Purpose:
